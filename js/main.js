@@ -34,6 +34,9 @@ function getText ( ) {
 	return 0;
 }
 
+function showLink() {
+  document.getElementById("textget").innerHTML = "Loading...<br />It's taking a while<br /> Alternate link:<br /> <a href='https://goo.gl/Hh3P3S'>https://goo.gl/Hh3P3S</a>";
+}
 
 // Document loaded start script
 
