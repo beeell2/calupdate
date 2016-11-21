@@ -1,9 +1,12 @@
+// Variables
 var showLinkTimeout;
-// Function to get text from master gist
+
+// nl2br from php.js
 function nl2br (str, is_xhtml) {
     var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br />' : '<br>';
     return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
 }
+// Function to get text from master gist
 function getText ( ) {
 	// Set variables
 	var url = "https://gist.githubusercontent.com/beeell2/21b45de1976c4e9ccec8b1d4f16f1124/raw/";
@@ -31,12 +34,6 @@ function getText ( ) {
 	return 0;
 }
 
-// Function to show alternate link if loading takes too long
-
-function showLink ( ) {
-
-
-}
 
 // Document loaded start script
 
@@ -48,7 +45,4 @@ document.addEventListener('DOMContentLoaded', function() {
 	var showLinkTimeout = setTimeout(showLink(),5000);
 	// Get text
 	getText();
-
-
-
 }, false);
