@@ -8,7 +8,7 @@
   <title>title</title>
   <meta name="description" content="">
   <meta name="author" content="">
-  
+
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -28,6 +28,16 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" href="fav.png" type="image/png">
 
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript">
+    if (location.protocol != 'https:')
+    {
+      location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+    }
+  </script>
+  <script type="text/javascript" src="js/main.js?5"></script>
+
 </head>
 <body>
 
@@ -43,7 +53,9 @@
     <div class="docs-section" id="text" style="text-align: center">
       <div class="centertextie" style="display: inline-block;text-align: left">
         <div id="nojs">
-           No Javascript
+           Failed to load content<br />
+           Go to the following link instead<br />
+           <a href="https://goo.gl/STf6NB">https://goo.gl/STf6NB</a>
         </div>
         <div id="textget" style="display:none;">
         </div>
