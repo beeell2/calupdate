@@ -10,7 +10,7 @@ function nl2br (str, is_xhtml) {
 function getText ( ) {
   console.log('Getting text...');
 	// Set variables
-	var url = "https://gist.githubusercontent.com/beeell2/21b45de1976c4e9ccec8b1d4f16f1124/raw/";
+	var url = "https://gist.githubusercontent.com/beeell2/21b45de1976c4e9ccec8b1d4f16f1124/raw/?"+Math.random();
 	var data = 0;
 
 	// Loading text
