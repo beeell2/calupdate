@@ -39,7 +39,7 @@ function getText ( ) {
 
 function showLink() {
 
-  document.getElementById("textget").innerHTML = "Loading...<br />It's taking a while<br /> Alternate link:<br /> <a href='https://goo.gl/Hh3P3S'>https://goo.gl/Hh3P3S</a>";
+  document.getElementById("textget").innerHTML = "Loading...<br />It's taking a while<br /> Alternate link:<br /> <a href='https://goo.gl/STf6NB'>https://goo.gl/STf6NB</a>";
 
 }
 
